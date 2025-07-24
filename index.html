@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Brains....</title>
+    <!-- <link rel="stylesheet" href="./index.css"> -->
+    <style>
+        h2{
+            /* text-shadow: 5px 3px 1px blue; */
+        }
+
+        .student_table{
+           border: 1px solid red;
+           box-shadow: 0px 0px 10px red;
+        }
+    
+        #virat{
+            width: 330px;
+            letter-spacing: 1px;
+            /* font-size: 0px; */
+            border: 1px solid red;
+            /* padding-left: 10px;
+            padding-right: 30px;
+            padding-top: 20px;
+            padding-bottom: 40px; */
+            padding: 10px 20px 15px 0px;
+
+            /* margin:10px 10px 10px 10px ; */
+            margin: 10px;
+        }
+        .flexbox{
+            border: 2px solid blue;
+            height: 500px;
+            display: flex;
+            /* justify-content: start; */
+            justify-content: center;
+            /* justify-content: end; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+
+            align-items: center;
+            /* align-items: end; */
+
+            background-image:url('./images/banner.jpg') ;
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: cover;
+            
+
+        }
+        .flexbox h1{
+            color: blue;
+            font-size: 40px;
+            text-shadow: 0px 0px 10px red;
+        }
+        .box{
+            border: 1px solid red;
+            margin: 10px;
+            padding: 10px;
+            height: 40px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- <div class="flexbox">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div> -->
+
+    <div class="flexbox">
+         <h1>Hi This is Sachin Kumar</h1>
+    </div>
+
+    <!-- 
+    
+    3 Ways to Add css to HTML
+    1. Inline Style-sheet - Perticular tags
+    2. Internal Style-sheet 
+    3. External Style sheet
+
+    Selectors
+    -----------
+    1. Tag selector
+    2. className selector
+    3. Id Selector
+    4. group Selector
+    5. Universal selectors
+
+
+    Box Model
+    ----------
+    Context-> Actual content like tags
+    Padding ->
+    Border ->
+    margin -> 
+
+    Display Property
+    ---------------
+    inline
+    block
+    flex
+    grid
+
+    Flex
+    -----
+
+    -->
+
+
+    
+
+    <br>
+    <br>
+    <a href="https://bootstrapmade.com/demo/Strategy/">Project</a>
+    <h2 style="background-color: blueviolet; color: white;">Student Table</h2>
+
+    <table border="1" class="student_table">
+        <thead>
+            <tr style="background-color: gray; color: white;">
+                <th>Student_Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Qualification</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>S001</td>
+                <td>Harini</td>
+                <td>harini@gamil.com</td>
+                <td>BTech</td>
+            </tr>
+            <tr>
+                <td>S002</td>
+                <td>Suman</td>
+                <td>suman@credi.com</td>
+                <td>BE</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- List- Collection of items/data -->
+    <!-- Ordered List -->
+    <ol style="list-style-type:lower-latin;">
+        <li>Home</li>
+        <li>About us</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+    </ol>
+    <!-- Unordered List -->
+    <ul style="list-style-type:square;">
+        <li>Home</li>
+        <li>About us</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+    </ul>
+
+    <hr>
+    <!-- Form tags -->
+    <!--
+    username, password, age, gender(Radio button), email, phone no, Address
+    Checkbox(select all), DOB, File upload, dropdown
+     -->
+
+    <form action="">
+        <h2>Forms Tags</h2>
+
+        <!-- <label for="">Username</label> -->
+        <input type="text" required placeholder="Enter Your Name"> <br>
+
+        <!-- <label for="">Email</label> -->
+        <input type="email" required placeholder="Enter Mail id"> <br>
+
+        <input type="number" placeholder="Add your Phone no"> <br>
+        <input type="password" placeholder="Enter password"> <br>
+        <textarea name="" id="" placeholder="Write your Feedback"></textarea><br>
+        <input type="time"> <br>
+        <input type="datetime-local" name="" id=""> <br>
+
+        <label for="">Course</label>
+        <input type="radio">
+        <label for="">Python</label>
+        <input type="radio">
+        <label for="">Java</label>
+        <input type="radio">
+        <label for="">Web</label> <br>
+
+        <label for="">Choose Subjects</label>
+        <input type="checkbox" name="" id="">
+        <label for="">HTML</label>
+        <input type="checkbox" name="" id="">
+        <label for="">CSS</label>
+        <input type="checkbox" name="" id="">
+        <label for="">JavaScript</label> <br>
+
+        <label for="">Dropdown</label>
+        <select name="" id="">
+            <option value="">Dropdown1</option>
+            <option value="">Dropdown2</option>
+            <option value="">Dropdown3</option>
+        </select> <br>
+
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+
+    <hr>
+    <!-- Headers [h1 to h6]-->
+    <h1>Web Brains....</h1>
+    <h2>Web Brains....</h2>
+    <h3>Web Brains....</h3>
+
+    <!-- Paragraph -->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam quibusdam dolorem earum sit porro odio velit
+        dignissimos odit quasi ipsa. Modi nisi saepe magni magnam impedit eum minus, dolorem omnis!</p>
+
+
+    <div>
+        <h1 id="virat">Virat Kohli Biography</h1>
+        <p>Recent articles about Virat Kohli often highlight his exceptional batting skills, leadership as a former
+            captain, and his impact on and off the field, particularly his fitness and charitable work</p>
+
+        <h2>On-Field Achievements and Impact:</h2>
+        <h3>IPL 2025:</h3>
+        <p>Kohli's continued presence with Royal Challengers Bangalore (RCB) in the
+            IPL, where he is a key player, is frequently mentioned. He retained the Orange Cap in 2024. </p>
+    </div>
+
+    <!-- anchor tag -> Refers to the Link/pages -->
+    <a href="https://www.netflix.com/in/">Netflix</a>
+    <a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root">Amazon Prime</a>
+    <a href="https://www.flipkart.com/">FlipKart</a>
+
+    <br>
+    <hr>
+
+
+    <a href="./Project-1.html">
+
+        <img src="https://bootstrapmade.com/content/demo/Tour/assets/img/travel/tour-1.webp" alt="Himalayan Tour"
+            height="200px">
+
+    </a>
+
+    <img src="https://bootstrapmade.com/content/demo/Tour/assets/img/travel/tour-6.webp" alt="Amazon Rainforest Trek"
+        height="200px">
+
+
+    <!-- Assignment
+    1. Create Index page (Crciket Players) 9 Members
+
+    2. Add Cricket Players each data(Image, Name, Description)
+
+    3. Create a seperate file for Each Player (Virat.html, Rohit.html....)
+    -->
+
+</body>
+
+</html>

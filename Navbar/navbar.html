@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: whitesmoke;
+        }
+        .navbar{
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 50px;
+            box-shadow: 0 4px 10px grey;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo{
+            font-size: 24px;
+            font-weight: bold;
+
+        }
+
+        .nav-links{
+            display: flex;
+            gap: 30px;
+            letter-spacing: 1px;
+        }
+        .nav-links a{
+            color: gray;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .auth{
+            display: flex;
+            gap: 15px;
+        }
+        .auth a{
+            text-decoration: none;
+            padding: 8px 15px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .signin{
+            color: black;
+            border: 1px solid black;
+        }
+        .signin:hover{
+            background-color: black;
+            color: white;
+        }
+
+        .signup{
+            background-color: black;
+            color: white;
+        }
+        .signup:hover{
+            background-color: gray;
+        }
+
+
+
+.home{
+    height: 100vh;
+    border: 1px solid red;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">MyBrand</div>
+        <div class="nav-links">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Portfolio</a>
+            <a href="">Contact</a>
+        </div>
+        <div class="auth">
+            <a href="../Auth/Signin.html" class="signin">Sign In</a>
+            <a href="../Auth/Signup.html" class="signup">Sign Up</a>
+
+           
+        </div>
+    </nav>
+    <div class="home">
+
+        This is Home Page
+    </div>
+</body>
+</html>

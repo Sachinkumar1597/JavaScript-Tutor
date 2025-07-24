@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 40px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px grey;
+        }
+
+        h2 {
+            text-align: center;
+            color: black;
+            margin-bottom: 25px;
+        }
+
+        /* input[type='text'],
+        input[type='email'],
+        input[type='password']
+        {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid grey;
+            border-radius: 5px;
+        } */
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid grey;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        button:hover {
+            background-color: gray;
+        }
+
+        .toggle-link {
+            margin-top: 15px;
+            text-align: center;
+            color: black;
+            font-size: 16px;
+
+        }
+
+        .toggle-link a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .toggle-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Sign Up</h2>
+        <form action="">
+            <input type="text" placeholder="Enter Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm password" required>
+            <button type="submit">Register</button>
+            <div class="toggle-link">
+                Already have an account? <a href="./Signin.html">Sign in</a>
+                <a href="../Navbar/navbar.html">Home</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

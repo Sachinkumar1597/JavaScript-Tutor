@@ -1,0 +1,23 @@
+JavaScript
+============
+-> Js is a lightwight, intepreted and just-in-time compiled programming language
+-> Scripting language for the web pages
+-> Key Purpose
+----------------
+1. Interactive Web pages
+2. Univarsal language of the web
+3. Cross-Platform Development(Mobile Apps, Desktop App)
+4. Rich Ecosystem(having lot of libraries like React, Angular, Vue js, Express ja)
+5. Client-side and Server-side Programming language
+
+
+variables
+Operators
+Conditional statements (if, else, switch)
+Loops
+Array
+String
+Functions 
+Objects
+JSON
+DOM
